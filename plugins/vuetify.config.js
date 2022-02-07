@@ -3,13 +3,14 @@ const theme = {
   themes: {
     light: {
       primary: '#7F56D9',
+      primary_alt: '#F9F5FF',
       success: '#027A48',
     },
   },
 };
 
 const breakpoint = {
-  mobileBreakpoint: 'sm',
+  mobileBreakpoint: 'md',
   thresholds: {
     xs: 576,
     sm: 768,
