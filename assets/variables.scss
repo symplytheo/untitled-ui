@@ -1,4 +1,58 @@
 // Ref: https://github.com/nuxt-community/vuetify-module#customvariables
 //
 // The variables you want to modify
-// $font-size-root: 20px;
+$body-font-family: 'Inter', sans-serif;
+
+$grid-breakpoints: (
+  'xs': 0,
+  'sm': 576px,
+  'md': 768px,
+  'lg': 1024px - 16px,
+  'xl': 1200px - 16px,
+);
+
+$border-radius-root: 8px;
+
+$btn-text-transform: none !default;
+
+$toolbar-content-padding-x: 0;
+
+$headings: (
+  'h2': (
+    'size': 2.25rem,
+  ),
+  'h4': (
+    'size': 1.875rem,
+  ),
+);
+
+$grey: (
+  (
+    'lighten-5': #f9fafb,
+    'lighten-4': #f2f4f7,
+    'lighten-3': #e0e0e0,
+    'lighten-2': #d0d5dd,
+    'darken-2': #667085,
+    'darken-3': #344054,
+    'darken-4': #101828,
+  )
+);
+
+$material-light: (
+  (
+    'text': (
+      'primary': #101828,
+      'secondary': #667085,
+    ),
+  )
+);
+
+.px-xl-28 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+
+  @media screen and (min-width: 1184px) {
+    padding-left: 7rem;
+    padding-right: 7rem;
+  }
+}
